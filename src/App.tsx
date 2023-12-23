@@ -1,5 +1,7 @@
+import AllergyCheckbox from "./pages/checkbox";
 import CountHooks from "./pages/count"
 import DropdownHook from "./pages/dropdown";
+import AgeRadioButtons from "./pages/radio";
 
 interface User {
   name: string;
@@ -18,6 +20,8 @@ function App() {
       <p>{users.age}</p>
       <CountHooks />
       <DropdownHook />
+      <AllergyCheckbox  />
+      <AgeRadioButtons />
     </>
   )
 }
